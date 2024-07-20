@@ -12,10 +12,9 @@ const ListItem = ({transaction , deleteTransaction}) => {
     <button className='btn btn-sm btn-outline-light float-end'
     onClick={()=> deleteTransaction(transaction.id)}>
     Delete</button>
-    <button className=' mx-1 btn btn-sm btn-outline-warning float-end'>Edit</button>
-  </li>
+    </li>
   )
 };
-
+SS
 export default ListItem;
 
